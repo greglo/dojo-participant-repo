@@ -2,7 +2,7 @@ import * as _ from 'lodash'
 import * as mocha from 'mocha'
 import {expect} from 'chai'
 
-import {respondTo} from '../src/respondTo'
+import {respondTo} from '../src/respondTo.ts'
 
 describe("respondTo", () => {
     it("should return an unknown query message when the query is unrecognized", () => {
