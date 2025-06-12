@@ -8,4 +8,4 @@ In each repo, do
 ----------------
 
 - Install dependencies with ``bun install``
-- Run the tests with ``bun run test``
+- Run the tests with ``bun test``

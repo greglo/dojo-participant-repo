@@ -2,15 +2,10 @@
   "name": "tennis-score",
   "version": "0.0.0",
   "devDependencies": {
-    "@types/chai": "^3.4.32",
-    "@types/lodash": "^4.14.34",
-    "@types/mocha": "^2.2.31",
-    "chai": "^3.5.0",
     "lodash": "^4.15.0",
-    "mocha": "^3.0.2",
     "typescript": "^2.0.0"
   },
   "scripts": {
-    "test": "bun x mocha --watch src/"
+    "test": "bun test"
   }
 }
