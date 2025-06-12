@@ -2,11 +2,10 @@ Prerequisites
 -------------
 Install
 
-- brew (http://brew.sh/)
-- npm (``brew install node``)
+- bun (https://bun.sh/)
 
 In each repo, do
 ----------------
 
-- Install dependencies with ``npm install``
-- Run the tests with ``./tests``
+- Install dependencies with ``bun install``
+- Run the tests with ``bun run test``

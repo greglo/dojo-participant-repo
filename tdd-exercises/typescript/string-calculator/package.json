@@ -10,6 +10,6 @@
     "ts-loader": "*"
   },
   "scripts": {
-    "shrinkwrap": "npm shrinkwrap --dev && node ./tasks/shrinkwrap-remove-resolved.js"
+    "test": "bun run ./tests"
   }
 }

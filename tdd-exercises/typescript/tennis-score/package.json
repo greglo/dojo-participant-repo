@@ -12,6 +12,6 @@
     "typescript": "^2.0.0"
   },
   "scripts": {
-    "test": "mocha --compilers ts:ts-node/register --watch src/"
+    "test": "bunx mocha --require ts-node/register --watch src/"
   }
 }
